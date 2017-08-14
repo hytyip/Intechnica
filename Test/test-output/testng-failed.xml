@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Website_Test]">
+  <parameter name="QueueCheck" value="1"/>
+  <test name="Test(failed)">
+    <parameter name="QueueCheck" value="1"/>
+    <classes>
+      <class name="Selenium.Test.WebTest">
+        <methods>
+          <include name="main"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Selenium.Test.WebTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Website_Test] -->

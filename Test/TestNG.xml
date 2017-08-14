@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Website_Test">
+<test name="Test">
+	<parameter name="QueueCheck" value="1"/>
+		<classes>
+			<class name="Selenium.Test.WebTest"/>
+		</classes>
+</test>
+</suite>
